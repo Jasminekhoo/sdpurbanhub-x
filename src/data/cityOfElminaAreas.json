@@ -1,0 +1,78 @@
+{
+  "sourceName": "City of Elmina — Key Locations",
+  "description": "Approved baseline for area and location data used in the app. Some entries are in the surrounding area or are access infrastructure, not necessarily inside City of Elmina proper.",
+  "categories": [
+    {
+      "id": "major-precincts",
+      "name": "Major Precincts",
+      "locations": [
+        "Elmina West",
+        "Elmina East",
+        "Elmina Green"
+      ]
+    },
+    {
+      "id": "residential-developments",
+      "name": "Residential Developments",
+      "locations": [
+        "Elmina Valley",
+        "Elmina Ridge 2",
+        "The Eighth, Elmina Green"
+      ]
+    },
+    {
+      "id": "parks-recreation",
+      "name": "Parks & Recreation",
+      "locations": [
+        "Elmina Central Park",
+        "Sakura Lake",
+        "Elmina Outdoor Sculpture Museum"
+      ]
+    },
+    {
+      "id": "commercial-dining",
+      "name": "Commercial & Dining",
+      "locations": [
+        "Elmina Lakeside Mall",
+        "TEMU Business Centre",
+        "JUMPA @ Elmina Valley"
+      ]
+    },
+    {
+      "id": "education-family",
+      "name": "Education & Family",
+      "locations": [
+        "SJKC Regent Elmina",
+        "HELP International School",
+        "SRK Taman Bukit Subang"
+      ]
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare",
+      "locations": [
+        "Putra Medical Centre Bukit Rahman Putra",
+        "Ramsay Sime Darby Ara Damansara Medical Centre",
+        "Hospital Sungai Buloh"
+      ]
+    },
+    {
+      "id": "roads-access",
+      "name": "Roads & Access",
+      "locations": [
+        "Guthrie Corridor Expressway (GCE)",
+        "DASH Expressway",
+        "Elmina Interchange"
+      ]
+    },
+    {
+      "id": "nature-sustainability",
+      "name": "Nature & Sustainability",
+      "locations": [
+        "Elmina Rainforest Knowledge Centre (ERKC)",
+        "Elmina Living Collection Nursery (ELCN)",
+        "Bukit Cherakah Forest Reserve"
+      ]
+    }
+  ]
+}

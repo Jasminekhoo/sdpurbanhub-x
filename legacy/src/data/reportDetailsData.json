@@ -1,0 +1,762 @@
+{
+  "reports": [
+    {
+      "id": "REP-001",
+      "hazardId": "HZ-101",
+      "fileName": "Broken Street Light.jpg",
+      "imageUrl": "/broken-street-light.jpg",
+      "title": "Shattered Street Lamp Fixture",
+      "category": "Lighting Deficiency / Faulty Streetlight",
+      "feedCategory": "Light Broken",
+      "assignedPath": "Route A",
+      "assignedRouteId": "A",
+      "affectedRoutes": [
+        "A"
+      ],
+      "affectedNode": "L-04",
+      "locationName": "Central Boulevard Junction (L-04)",
+      "gpsLocation": {
+        "lat": 3.1905,
+        "lng": 101.5205
+      },
+      "severity": "High",
+      "pedestrianExposure": "High",
+      "urgency": "High",
+      "status": "Reported",
+      "reportDate": "18 Oct 2026",
+      "timestamp": "8:42 PM",
+      "reportedBy": "Aina (Resident)",
+      "source": "Resident Mobile Report",
+      "figureCaption": "Street lamp casing completely shattered, bulb exposed to weather",
+      "description": "The lamp cover on the streetlight at Junction L-04 is completely shattered. The bare bulb and wiring are exposed to rain, creating both a safety and electrical hazard for passing pedestrians at night.",
+      "routeImpact": {
+        "route": "Route A (Main Avenue)",
+        "penaltyType": "lighting",
+        "penaltyScore": 7,
+        "recommendation": "Avoid night jogging along boulevard or take well-lit inner walkway."
+      },
+      "roleVisibility": {
+        "resident": {
+          "warningText": "Dim section with exposed broken glass and bulb near Central Boulevard.",
+          "actionNeeded": "Use illuminated side corridor or travel in groups."
+        },
+        "security": {
+          "patrolAlert": "Electrical short hazard if wet weather persists. Priority checkpoint L-04.",
+          "dispatchPriority": "High"
+        },
+        "property": {
+          "contractorTask": "Replace casing and install energy-efficient LED luminaire.",
+          "estimatedCost": 1800,
+          "pairedInterventionId": "IN-01"
+        }
+      }
+    },
+    {
+      "id": "REP-002",
+      "hazardId": "HZ-104",
+      "fileName": "Broken Street Light 2.jpeg",
+      "imageUrl": "/broken-street-light-2.jpeg",
+      "title": "Damaged Lamp Post & Flickering Luminaire",
+      "category": "Lighting Deficiency / Faulty Streetlight",
+      "feedCategory": "Light Broken",
+      "assignedPath": "Route C",
+      "assignedRouteId": "C",
+      "affectedRoutes": [
+        "C"
+      ],
+      "affectedNode": "L-08",
+      "locationName": "Central Transit Hub Approach (L-08 / Courtyard North)",
+      "gpsLocation": {
+        "lat": 3.1885,
+        "lng": 101.5238
+      },
+      "severity": "Medium",
+      "pedestrianExposure": "High",
+      "urgency": "High",
+      "status": "Under verification",
+      "reportDate": "20 Oct 2026",
+      "timestamp": "6:47 PM",
+      "reportedBy": "Zul (Security Patrol)",
+      "source": "Security Routine Audit",
+      "figureCaption": "Bent housing bracket with intermittently flickering LED pole head",
+      "description": "Street lamp pole head fixture exhibiting loose wiring and rapid strobing/flickering. Significantly degrades night-time visibility for commuters walking toward transit stop.",
+      "routeImpact": {
+        "route": "Route C (Courtyard Link)",
+        "penaltyType": "lighting",
+        "penaltyScore": 5,
+        "recommendation": "Maintain transit pathway lighting through solar backup lamps."
+      },
+      "roleVisibility": {
+        "resident": {
+          "warningText": "Flickering light causing disorientation and reduced clarity at transit gate.",
+          "actionNeeded": "Follow illuminated perimeter signage."
+        },
+        "security": {
+          "patrolAlert": "Monitor transit pedestrian volume during peak dusk hours (7 PM - 9 PM).",
+          "dispatchPriority": "Medium"
+        },
+        "property": {
+          "contractorTask": "Rewire driver ballast and secure mounting bracket.",
+          "estimatedCost": 1200,
+          "pairedInterventionId": "IN-04"
+        }
+      }
+    },
+    {
+      "id": "REP-003",
+      "hazardId": "HZ-103",
+      "fileName": "Damaged Pathway.jpg",
+      "imageUrl": "/damaged-pathway.jpg",
+      "title": "Severely Cracked & Displaced Pedestrian Pavement",
+      "category": "Damaged / Discontinuous Pedestrian Path",
+      "feedCategory": "Damaged Path",
+      "assignedPath": "Route B",
+      "assignedRouteId": "B",
+      "affectedRoutes": [
+        "B"
+      ],
+      "affectedNode": "L-06",
+      "locationName": "Garden Shortcut midpoint (L-06)",
+      "gpsLocation": {
+        "lat": 3.1825,
+        "lng": 101.5165
+      },
+      "severity": "High",
+      "pedestrianExposure": "Medium",
+      "urgency": "High",
+      "status": "Reported",
+      "reportDate": "17 Oct 2026",
+      "timestamp": "7:10 PM",
+      "reportedBy": "Alex Chen (Resident)",
+      "source": "Resident Mobile Report",
+      "figureCaption": "Severely fractured concrete path with exposed rubble and deep fissures",
+      "description": "The concrete pedestrian pathway at the Garden Shortcut midpoint has severely cracked and broken apart, with exposed gravel and rubble. Poses acute trip hazard.",
+      "routeImpact": {
+        "route": "Route B (Garden Shortcut)",
+        "penaltyType": "pathway",
+        "penaltyScore": 7,
+        "recommendation": "Reroute strollers, wheelchairs, and night walkers to Route A."
+      },
+      "roleVisibility": {
+        "resident": {
+          "warningText": "Major trip and fall hazard in dark garden shortcut.",
+          "actionNeeded": "Choose Route A (Main Avenue) after sunset."
+        },
+        "security": {
+          "patrolAlert": "Check for resident falls or injuries along unlit garden path segment.",
+          "dispatchPriority": "Medium"
+        },
+        "property": {
+          "contractorTask": "Excavate tree root intrusions and lay level interlocking pavers.",
+          "estimatedCost": 4500,
+          "pairedInterventionId": "IN-03"
+        }
+      }
+    },
+    {
+      "id": "REP-004",
+      "hazardId": "HZ-105",
+      "fileName": "Damaged Pathway 2.jpeg",
+      "imageUrl": "/damaged-pathway-2.jpeg",
+      "title": "Sunken Sidewalk Pavers & Erosion Hole",
+      "category": "Damaged / Discontinuous Pedestrian Path",
+      "feedCategory": "Damaged Path",
+      "assignedPath": "Route A",
+      "assignedRouteId": "A",
+      "affectedRoutes": [
+        "A"
+      ],
+      "affectedNode": "L-02",
+      "locationName": "North Avenue Pedestrian Crossing (L-02)",
+      "gpsLocation": {
+        "lat": 3.187,
+        "lng": 101.5135
+      },
+      "severity": "Medium",
+      "pedestrianExposure": "High",
+      "urgency": "Medium",
+      "status": "Under verification",
+      "reportDate": "20 Oct 2026",
+      "timestamp": "6:49 PM",
+      "reportedBy": "Farah (Resident)",
+      "source": "Resident Mobile Report",
+      "figureCaption": "Subsided paving tiles with uneven elevation drop exceeding 65mm",
+      "description": "Ground subsidence beneath sidewalk pavers creating an abrupt step drop. Could cause ankle sprains or damage to accessibility aids during rainy nights.",
+      "routeImpact": {
+        "route": "Route A (Main Avenue)",
+        "penaltyType": "pathway",
+        "penaltyScore": 3,
+        "recommendation": "Walk along inner kerb until leveling works are complete."
+      },
+      "roleVisibility": {
+        "resident": {
+          "warningText": "Sunken pavement edge near North Avenue crossing.",
+          "actionNeeded": "Watch your step when crossing towards commercial fringe."
+        },
+        "security": {
+          "patrolAlert": "Place temporary reflective cones around the depression.",
+          "dispatchPriority": "Low"
+        },
+        "property": {
+          "contractorTask": "Compact sub-base soil and reseal interlocking brick joints.",
+          "estimatedCost": 2100,
+          "pairedInterventionId": "IN-05"
+        }
+      }
+    },
+    {
+      "id": "REP-005",
+      "hazardId": "HZ-106",
+      "fileName": "Damaged Pathway 3.jpeg",
+      "imageUrl": "/damaged-pathway-3.jpeg",
+      "title": "Broken Kerbstone & Curb Ramp Discontinuity",
+      "category": "Damaged / Discontinuous Pedestrian Path",
+      "feedCategory": "Damaged Path",
+      "assignedPath": "Route C",
+      "assignedRouteId": "C",
+      "affectedRoutes": [
+        "C"
+      ],
+      "affectedNode": "L-05",
+      "locationName": "Courtyard Link Access Ramp (L-05)",
+      "gpsLocation": {
+        "lat": 3.182,
+        "lng": 101.5145
+      },
+      "severity": "Medium",
+      "pedestrianExposure": "Medium",
+      "urgency": "Medium",
+      "status": "Reported",
+      "reportDate": "20 Oct 2026",
+      "timestamp": "6:49 PM",
+      "reportedBy": "Kamal (Property Maintenance)",
+      "source": "Facilities Inspection",
+      "figureCaption": "Chipped concrete kerb with exposed aggregate and broken accessibility slope",
+      "description": "Kerb ramp at entrance to residential inner courtyard is fractured, blocking smooth pram and wheelchair access from road level to elevated walkway.",
+      "routeImpact": {
+        "route": "Route C (Courtyard Link)",
+        "penaltyType": "pathway",
+        "penaltyScore": 4,
+        "recommendation": "Use main pedestrian gate ramp 30m south."
+      },
+      "roleVisibility": {
+        "resident": {
+          "warningText": "Damaged wheelchair/stroller ramp into courtyard.",
+          "actionNeeded": "Use alternate south ramp."
+        },
+        "security": {
+          "patrolAlert": "Ensure courtyard access gate remains unobstructed.",
+          "dispatchPriority": "Low"
+        },
+        "property": {
+          "contractorTask": "Recast cement ramp slope with non-slip finish.",
+          "estimatedCost": 1500,
+          "pairedInterventionId": "IN-06"
+        }
+      }
+    },
+    {
+      "id": "REP-006",
+      "hazardId": "HZ-102",
+      "fileName": "Overgrown Vegetation.jpg",
+      "imageUrl": "/overgrown-vegetation.jpg",
+      "title": "Dense Tree Branches Obstructing Sightline",
+      "category": "Obstructed Sightline",
+      "feedCategory": "Overgrown Vege",
+      "assignedPath": "Route B",
+      "assignedRouteId": "B",
+      "affectedRoutes": [
+        "B"
+      ],
+      "affectedNode": "L-06",
+      "locationName": "Garden Shortcut near Lamp L-06",
+      "gpsLocation": {
+        "lat": 3.183,
+        "lng": 101.518
+      },
+      "severity": "Medium",
+      "pedestrianExposure": "Medium",
+      "urgency": "Medium",
+      "status": "In progress",
+      "reportDate": "18 Oct 2026",
+      "timestamp": "5:15 PM",
+      "reportedBy": "Anonymous Resident",
+      "source": "Property Grounds Inspection",
+      "figureCaption": "Dense overhanging tree branches encroaching across the roadside walkway",
+      "description": "Heavy tree branches and overgrown shrubs hanging low over walkway, obscuring visibility around blind bend near lamp L-06. Conceals potential blindspots.",
+      "routeImpact": {
+        "route": "Route B (Garden Shortcut)",
+        "penaltyType": "sightline",
+        "penaltyScore": 8,
+        "recommendation": "Avoid traversing this section alone under low-light conditions."
+      },
+      "roleVisibility": {
+        "resident": {
+          "warningText": "Blind curve with thick shrubbery concealing oncoming walkers.",
+          "actionNeeded": "Utilize personal torchlight or choose Route A."
+        },
+        "security": {
+          "patrolAlert": "Designated high-risk ambush blindspot. Increased patrol frequency.",
+          "dispatchPriority": "High"
+        },
+        "property": {
+          "contractorTask": "Prune overhang to 2.5m clearance and trim side bushes.",
+          "estimatedCost": 900,
+          "pairedInterventionId": "IN-02"
+        }
+      }
+    },
+    {
+      "id": "REP-007",
+      "hazardId": "HZ-107",
+      "fileName": "Overgrown Vegetation 2.jpeg",
+      "imageUrl": "/overgrown-vegetation-2.jpeg",
+      "title": "Dense Hedge Encroachment Across Footpath",
+      "category": "Obstructed Sightline",
+      "feedCategory": "Overgrown Vege",
+      "assignedPath": "Route C",
+      "assignedRouteId": "C",
+      "affectedRoutes": [
+        "C"
+      ],
+      "affectedNode": "L-07",
+      "locationName": "Courtyard Inner Perimeter Walkway (L-07)",
+      "gpsLocation": {
+        "lat": 3.1855,
+        "lng": 101.5215
+      },
+      "severity": "Low",
+      "pedestrianExposure": "Low",
+      "urgency": "Low",
+      "status": "Scheduled",
+      "reportDate": "20 Oct 2026",
+      "timestamp": "6:50 PM",
+      "reportedBy": "Siti Nur (Resident)",
+      "source": "Resident Mobile Report",
+      "figureCaption": "Overgrown roadside shrubs narrowing available walking width to under 0.8m",
+      "description": "Untrimmed landscaping hedges narrowing the walkway corridor. Requires pedestrians to squeeze past vegetation or step onto adjacent turf.",
+      "routeImpact": {
+        "route": "Route C (Courtyard Link)",
+        "penaltyType": "sightline",
+        "penaltyScore": 3,
+        "recommendation": "Minor narrowing of walkway; passable with caution."
+      },
+      "roleVisibility": {
+        "resident": {
+          "warningText": "Narrowed footpath corridor along courtyard inner path.",
+          "actionNeeded": "Step carefully if ground is wet."
+        },
+        "security": {
+          "patrolAlert": "Clear view of duress checkpoint at L-07.",
+          "dispatchPriority": "Low"
+        },
+        "property": {
+          "contractorTask": "Routine landscape maintenance and hedge trimming.",
+          "estimatedCost": 650,
+          "pairedInterventionId": "IN-07"
+        }
+      }
+    }
+  ],
+  "paths": {
+    "Route A": {
+      "routeId": "A",
+      "name": "Main Avenue",
+      "tagline": "Recommended Night Route",
+      "primaryRole": "Primary Transit Corridor",
+      "assignedReports": [
+        {
+          "id": "REP-001",
+          "hazardId": "HZ-101",
+          "fileName": "Broken Street Light.jpg",
+          "imageUrl": "/broken-street-light.jpg",
+          "title": "Shattered Street Lamp Fixture",
+          "category": "Lighting Deficiency / Faulty Streetlight",
+          "feedCategory": "Light Broken",
+          "assignedPath": "Route A",
+          "assignedRouteId": "A",
+          "affectedRoutes": [
+            "A"
+          ],
+          "affectedNode": "L-04",
+          "locationName": "Central Boulevard Junction (L-04)",
+          "gpsLocation": {
+            "lat": 3.1905,
+            "lng": 101.5205
+          },
+          "severity": "High",
+          "pedestrianExposure": "High",
+          "urgency": "High",
+          "status": "Reported",
+          "reportDate": "18 Oct 2026",
+          "timestamp": "8:42 PM",
+          "reportedBy": "Aina (Resident)",
+          "source": "Resident Mobile Report",
+          "figureCaption": "Street lamp casing completely shattered, bulb exposed to weather",
+          "description": "The lamp cover on the streetlight at Junction L-04 is completely shattered. The bare bulb and wiring are exposed to rain, creating both a safety and electrical hazard for passing pedestrians at night.",
+          "routeImpact": {
+            "route": "Route A (Main Avenue)",
+            "penaltyType": "lighting",
+            "penaltyScore": 7,
+            "recommendation": "Avoid night jogging along boulevard or take well-lit inner walkway."
+          },
+          "roleVisibility": {
+            "resident": {
+              "warningText": "Dim section with exposed broken glass and bulb near Central Boulevard.",
+              "actionNeeded": "Use illuminated side corridor or travel in groups."
+            },
+            "security": {
+              "patrolAlert": "Electrical short hazard if wet weather persists. Priority checkpoint L-04.",
+              "dispatchPriority": "High"
+            },
+            "property": {
+              "contractorTask": "Replace casing and install energy-efficient LED luminaire.",
+              "estimatedCost": 1800,
+              "pairedInterventionId": "IN-01"
+            }
+          }
+        },
+        {
+          "id": "REP-004",
+          "hazardId": "HZ-105",
+          "fileName": "Damaged Pathway 2.jpeg",
+          "imageUrl": "/damaged-pathway-2.jpeg",
+          "title": "Sunken Sidewalk Pavers & Erosion Hole",
+          "category": "Damaged / Discontinuous Pedestrian Path",
+          "feedCategory": "Damaged Path",
+          "assignedPath": "Route A",
+          "assignedRouteId": "A",
+          "affectedRoutes": [
+            "A"
+          ],
+          "affectedNode": "L-02",
+          "locationName": "North Avenue Pedestrian Crossing (L-02)",
+          "gpsLocation": {
+            "lat": 3.187,
+            "lng": 101.5135
+          },
+          "severity": "Medium",
+          "pedestrianExposure": "High",
+          "urgency": "Medium",
+          "status": "Under verification",
+          "reportDate": "20 Oct 2026",
+          "timestamp": "6:49 PM",
+          "reportedBy": "Farah (Resident)",
+          "source": "Resident Mobile Report",
+          "figureCaption": "Subsided paving tiles with uneven elevation drop exceeding 65mm",
+          "description": "Ground subsidence beneath sidewalk pavers creating an abrupt step drop. Could cause ankle sprains or damage to accessibility aids during rainy nights.",
+          "routeImpact": {
+            "route": "Route A (Main Avenue)",
+            "penaltyType": "pathway",
+            "penaltyScore": 3,
+            "recommendation": "Walk along inner kerb until leveling works are complete."
+          },
+          "roleVisibility": {
+            "resident": {
+              "warningText": "Sunken pavement edge near North Avenue crossing.",
+              "actionNeeded": "Watch your step when crossing towards commercial fringe."
+            },
+            "security": {
+              "patrolAlert": "Place temporary reflective cones around the depression.",
+              "dispatchPriority": "Low"
+            },
+            "property": {
+              "contractorTask": "Compact sub-base soil and reseal interlocking brick joints.",
+              "estimatedCost": 2100,
+              "pairedInterventionId": "IN-05"
+            }
+          }
+        }
+      ],
+      "totalReports": 2,
+      "cumulativePenalties": {
+        "lighting": 7,
+        "pathway": 3,
+        "sightline": 0
+      }
+    },
+    "Route B": {
+      "routeId": "B",
+      "name": "Garden Shortcut",
+      "tagline": "Fastest by distance, higher environmental penalties",
+      "primaryRole": "Active Pedestrian Trail",
+      "assignedReports": [
+        {
+          "id": "REP-003",
+          "hazardId": "HZ-103",
+          "fileName": "Damaged Pathway.jpg",
+          "imageUrl": "/damaged-pathway.jpg",
+          "title": "Severely Cracked & Displaced Pedestrian Pavement",
+          "category": "Damaged / Discontinuous Pedestrian Path",
+          "feedCategory": "Damaged Path",
+          "assignedPath": "Route B",
+          "assignedRouteId": "B",
+          "affectedRoutes": [
+            "B"
+          ],
+          "affectedNode": "L-06",
+          "locationName": "Garden Shortcut midpoint (L-06)",
+          "gpsLocation": {
+            "lat": 3.1825,
+            "lng": 101.5165
+          },
+          "severity": "High",
+          "pedestrianExposure": "Medium",
+          "urgency": "High",
+          "status": "Reported",
+          "reportDate": "17 Oct 2026",
+          "timestamp": "7:10 PM",
+          "reportedBy": "Alex Chen (Resident)",
+          "source": "Resident Mobile Report",
+          "figureCaption": "Severely fractured concrete path with exposed rubble and deep fissures",
+          "description": "The concrete pedestrian pathway at the Garden Shortcut midpoint has severely cracked and broken apart, with exposed gravel and rubble. Poses acute trip hazard.",
+          "routeImpact": {
+            "route": "Route B (Garden Shortcut)",
+            "penaltyType": "pathway",
+            "penaltyScore": 7,
+            "recommendation": "Reroute strollers, wheelchairs, and night walkers to Route A."
+          },
+          "roleVisibility": {
+            "resident": {
+              "warningText": "Major trip and fall hazard in dark garden shortcut.",
+              "actionNeeded": "Choose Route A (Main Avenue) after sunset."
+            },
+            "security": {
+              "patrolAlert": "Check for resident falls or injuries along unlit garden path segment.",
+              "dispatchPriority": "Medium"
+            },
+            "property": {
+              "contractorTask": "Excavate tree root intrusions and lay level interlocking pavers.",
+              "estimatedCost": 4500,
+              "pairedInterventionId": "IN-03"
+            }
+          }
+        },
+        {
+          "id": "REP-006",
+          "hazardId": "HZ-102",
+          "fileName": "Overgrown Vegetation.jpg",
+          "imageUrl": "/overgrown-vegetation.jpg",
+          "title": "Dense Tree Branches Obstructing Sightline",
+          "category": "Obstructed Sightline",
+          "feedCategory": "Overgrown Vege",
+          "assignedPath": "Route B",
+          "assignedRouteId": "B",
+          "affectedRoutes": [
+            "B"
+          ],
+          "affectedNode": "L-06",
+          "locationName": "Garden Shortcut near Lamp L-06",
+          "gpsLocation": {
+            "lat": 3.183,
+            "lng": 101.518
+          },
+          "severity": "Medium",
+          "pedestrianExposure": "Medium",
+          "urgency": "Medium",
+          "status": "In progress",
+          "reportDate": "18 Oct 2026",
+          "timestamp": "5:15 PM",
+          "reportedBy": "Anonymous Resident",
+          "source": "Property Grounds Inspection",
+          "figureCaption": "Dense overhanging tree branches encroaching across the roadside walkway",
+          "description": "Heavy tree branches and overgrown shrubs hanging low over walkway, obscuring visibility around blind bend near lamp L-06. Conceals potential blindspots.",
+          "routeImpact": {
+            "route": "Route B (Garden Shortcut)",
+            "penaltyType": "sightline",
+            "penaltyScore": 8,
+            "recommendation": "Avoid traversing this section alone under low-light conditions."
+          },
+          "roleVisibility": {
+            "resident": {
+              "warningText": "Blind curve with thick shrubbery concealing oncoming walkers.",
+              "actionNeeded": "Utilize personal torchlight or choose Route A."
+            },
+            "security": {
+              "patrolAlert": "Designated high-risk ambush blindspot. Increased patrol frequency.",
+              "dispatchPriority": "High"
+            },
+            "property": {
+              "contractorTask": "Prune overhang to 2.5m clearance and trim side bushes.",
+              "estimatedCost": 900,
+              "pairedInterventionId": "IN-02"
+            }
+          }
+        }
+      ],
+      "totalReports": 2,
+      "cumulativePenalties": {
+        "lighting": 10,
+        "pathway": 7,
+        "sightline": 8
+      }
+    },
+    "Route C": {
+      "routeId": "C",
+      "name": "Courtyard Link",
+      "tagline": "Shortest walking path via residential inner courtyard",
+      "primaryRole": "Internal Residential Connection",
+      "assignedReports": [
+        {
+          "id": "REP-002",
+          "hazardId": "HZ-104",
+          "fileName": "Broken Street Light 2.jpeg",
+          "imageUrl": "/broken-street-light-2.jpeg",
+          "title": "Damaged Lamp Post & Flickering Luminaire",
+          "category": "Lighting Deficiency / Faulty Streetlight",
+          "feedCategory": "Light Broken",
+          "assignedPath": "Route C",
+          "assignedRouteId": "C",
+          "affectedRoutes": [
+            "C"
+          ],
+          "affectedNode": "L-08",
+          "locationName": "Central Transit Hub Approach (L-08 / Courtyard North)",
+          "gpsLocation": {
+            "lat": 3.1885,
+            "lng": 101.5238
+          },
+          "severity": "Medium",
+          "pedestrianExposure": "High",
+          "urgency": "High",
+          "status": "Under verification",
+          "reportDate": "20 Oct 2026",
+          "timestamp": "6:47 PM",
+          "reportedBy": "Zul (Security Patrol)",
+          "source": "Security Routine Audit",
+          "figureCaption": "Bent housing bracket with intermittently flickering LED pole head",
+          "description": "Street lamp pole head fixture exhibiting loose wiring and rapid strobing/flickering. Significantly degrades night-time visibility for commuters walking toward transit stop.",
+          "routeImpact": {
+            "route": "Route C (Courtyard Link)",
+            "penaltyType": "lighting",
+            "penaltyScore": 5,
+            "recommendation": "Maintain transit pathway lighting through solar backup lamps."
+          },
+          "roleVisibility": {
+            "resident": {
+              "warningText": "Flickering light causing disorientation and reduced clarity at transit gate.",
+              "actionNeeded": "Follow illuminated perimeter signage."
+            },
+            "security": {
+              "patrolAlert": "Monitor transit pedestrian volume during peak dusk hours (7 PM - 9 PM).",
+              "dispatchPriority": "Medium"
+            },
+            "property": {
+              "contractorTask": "Rewire driver ballast and secure mounting bracket.",
+              "estimatedCost": 1200,
+              "pairedInterventionId": "IN-04"
+            }
+          }
+        },
+        {
+          "id": "REP-005",
+          "hazardId": "HZ-106",
+          "fileName": "Damaged Pathway 3.jpeg",
+          "imageUrl": "/damaged-pathway-3.jpeg",
+          "title": "Broken Kerbstone & Curb Ramp Discontinuity",
+          "category": "Damaged / Discontinuous Pedestrian Path",
+          "feedCategory": "Damaged Path",
+          "assignedPath": "Route C",
+          "assignedRouteId": "C",
+          "affectedRoutes": [
+            "C"
+          ],
+          "affectedNode": "L-05",
+          "locationName": "Courtyard Link Access Ramp (L-05)",
+          "gpsLocation": {
+            "lat": 3.182,
+            "lng": 101.5145
+          },
+          "severity": "Medium",
+          "pedestrianExposure": "Medium",
+          "urgency": "Medium",
+          "status": "Reported",
+          "reportDate": "20 Oct 2026",
+          "timestamp": "6:49 PM",
+          "reportedBy": "Kamal (Property Maintenance)",
+          "source": "Facilities Inspection",
+          "figureCaption": "Chipped concrete kerb with exposed aggregate and broken accessibility slope",
+          "description": "Kerb ramp at entrance to residential inner courtyard is fractured, blocking smooth pram and wheelchair access from road level to elevated walkway.",
+          "routeImpact": {
+            "route": "Route C (Courtyard Link)",
+            "penaltyType": "pathway",
+            "penaltyScore": 4,
+            "recommendation": "Use main pedestrian gate ramp 30m south."
+          },
+          "roleVisibility": {
+            "resident": {
+              "warningText": "Damaged wheelchair/stroller ramp into courtyard.",
+              "actionNeeded": "Use alternate south ramp."
+            },
+            "security": {
+              "patrolAlert": "Ensure courtyard access gate remains unobstructed.",
+              "dispatchPriority": "Low"
+            },
+            "property": {
+              "contractorTask": "Recast cement ramp slope with non-slip finish.",
+              "estimatedCost": 1500,
+              "pairedInterventionId": "IN-06"
+            }
+          }
+        },
+        {
+          "id": "REP-007",
+          "hazardId": "HZ-107",
+          "fileName": "Overgrown Vegetation 2.jpeg",
+          "imageUrl": "/overgrown-vegetation-2.jpeg",
+          "title": "Dense Hedge Encroachment Across Footpath",
+          "category": "Obstructed Sightline",
+          "feedCategory": "Overgrown Vege",
+          "assignedPath": "Route C",
+          "assignedRouteId": "C",
+          "affectedRoutes": [
+            "C"
+          ],
+          "affectedNode": "L-07",
+          "locationName": "Courtyard Inner Perimeter Walkway (L-07)",
+          "gpsLocation": {
+            "lat": 3.1855,
+            "lng": 101.5215
+          },
+          "severity": "Low",
+          "pedestrianExposure": "Low",
+          "urgency": "Low",
+          "status": "Scheduled",
+          "reportDate": "20 Oct 2026",
+          "timestamp": "6:50 PM",
+          "reportedBy": "Siti Nur (Resident)",
+          "source": "Resident Mobile Report",
+          "figureCaption": "Overgrown roadside shrubs narrowing available walking width to under 0.8m",
+          "description": "Untrimmed landscaping hedges narrowing the walkway corridor. Requires pedestrians to squeeze past vegetation or step onto adjacent turf.",
+          "routeImpact": {
+            "route": "Route C (Courtyard Link)",
+            "penaltyType": "sightline",
+            "penaltyScore": 3,
+            "recommendation": "Minor narrowing of walkway; passable with caution."
+          },
+          "roleVisibility": {
+            "resident": {
+              "warningText": "Narrowed footpath corridor along courtyard inner path.",
+              "actionNeeded": "Step carefully if ground is wet."
+            },
+            "security": {
+              "patrolAlert": "Clear view of duress checkpoint at L-07.",
+              "dispatchPriority": "Low"
+            },
+            "property": {
+              "contractorTask": "Routine landscape maintenance and hedge trimming.",
+              "estimatedCost": 650,
+              "pairedInterventionId": "IN-07"
+            }
+          }
+        }
+      ],
+      "totalReports": 3,
+      "cumulativePenalties": {
+        "lighting": 5,
+        "pathway": 4,
+        "sightline": 3
+      }
+    }
+  }
+}
